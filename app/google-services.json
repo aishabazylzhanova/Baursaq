@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "762406645885",
+    "project_id": "baursaq-ff1f4",
+    "storage_bucket": "baursaq-ff1f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:762406645885:android:85085a216c0caed4140114",
+        "android_client_info": {
+          "package_name": "com.baursaq.baursaq"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "762406645885-9pabmitpvmab3dk904cpi2g242gv05ao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiTdj8hMMLH3qk46_68aE-1nHr_Os_6xQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "762406645885-9pabmitpvmab3dk904cpi2g242gv05ao.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
