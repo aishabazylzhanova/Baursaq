@@ -22,6 +22,7 @@ public class LoginActivity extends AppCompatActivity {
     private Button login;
     private TextView register;
     private FirebaseAuth rAuth;
+    private EditText username;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,6 +32,7 @@ public class LoginActivity extends AppCompatActivity {
         login = findViewById(R.id.button_login);
         register = findViewById(R.id.register_login);
         rAuth = FirebaseAuth.getInstance();
+        username = findViewById(R.id.username);
 
         register.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -52,7 +54,8 @@ public class LoginActivity extends AppCompatActivity {
                                 @Override
                                 public void onComplete(@NonNull Task<AuthResult> task) {
                                     if (task.isSuccessful()){
-                                        Intent intent = new Intent(LoginActivity.this, RecipesActivity.class);
+                                        Intent intent = new Intent(LoginActivity.this, UserActivity.class);
+                                        intent.putExtra("Username", username.getText().toString());
                                         startActivity(intent);
                                     }
                                     else

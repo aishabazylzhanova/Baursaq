@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Baursaq">
         <activity
+            android:name=".AddActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserActivity"
+            android:exported="false" />
+        <activity
             android:name=".RecipesActivity"
             android:exported="false" />
         <activity

@@ -5,4 +5,8 @@
     <string name="Password">Password</string>
     <string name="Register">Register here</string>
     <string name="Name">Full Name</string>
+    <string name="All">All Recipes</string>
+    <string name="My">My Recipes</string>
+    <string name="Add">Add Recipe</string>
+
 </resources>
