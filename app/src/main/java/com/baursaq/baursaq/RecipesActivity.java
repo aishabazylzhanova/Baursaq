@@ -1,8 +1,9 @@
 package com.baursaq.baursaq;
 
+import android.os.Bundle;
+
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle;
 
 public class RecipesActivity extends AppCompatActivity {
 
@@ -11,4 +12,12 @@ public class RecipesActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_recipes);
     }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+
+
+    }
+
 }
